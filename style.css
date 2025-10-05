@@ -229,7 +229,7 @@ section {
 }
 
 .projects {
-    background: var(--bg-secondary);
+    background: var(--bg-card);
     transition: background-color 0.3s ease;
 }
 
@@ -301,8 +301,13 @@ section {
     font-size: 0.75rem;
 }
 
-.experience {
+.education {
     background: var(--bg-card);
+    transition: background-color 0.3s ease;
+}
+
+.experience {
+    background: var(--bg-secondary);
     transition: background-color 0.3s ease;
 }
 
